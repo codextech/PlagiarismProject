@@ -1,0 +1,172 @@
+﻿
+@{
+    ViewBag.Title = "Text";
+    Layout = "~/Views/Shared/_LayoutTextChecker.cshtml";
+}
+
+
+
+
+
+
+<style>
+
+
+#wrapper {background: #F0F0F0;}
+
+
+h2 {margin-left: 55px;}
+
+textarea {
+  margin: 50px 0 3px 220px;
+  width: 800px;
+  height: 400px;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.07);
+  border-color: -moz-use-text-color #FFFFFF #FFFFFF -moz-use-text-color;
+  border-image: none;
+  border-radius: 6px 6px 6px 6px;
+  border-style: none solid solid none;
+  border-width: medium 1px 1px medium;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12) inset;
+  color: #555555;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1em;
+  line-height: 1.4em;
+  padding: 5px 8px;
+  transition: background-color 0.2s ease 0s;
+}
+
+
+
+
+/*#button {
+	cursor:pointer;
+	float:right;
+	height:10px;
+	padding-left:24px;
+	padding-right:24px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:20px;
+	color:#FFF;
+	text-shadow: 0px -1px 0px #000000;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border-top:1px solid #FFF;
+	-webkit-box-shadow: 0px 2px 14px #000;
+	box-shadow: 0px 2px 14px #000;
+	background-color: #62add6;
+	background-image:url(https://static.tumblr.com/maopbtg/ZHLmgtok7/button.png);
+	background-repeat:repeat-x;
+}
+#button:active {
+	zoom: 1;
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+}
+#button:focus {
+	zoom: 1;
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+}*/
+
+#btn{
+   margin-left:510px;
+   margin-bottom:5px;
+   cursor:pointer;
+	height:50px;
+	padding-left:24px;
+	padding-right:24px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:20px;
+	color:#FFF;
+	text-shadow: 0px -1px 0px #000000;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border-top:1px solid #FFF;
+	-webkit-box-shadow: 0px 2px 14px #000;
+	box-shadow: 0px 2px 14px #000;
+	background-color: #55892F;
+	
+    
+}
+
+
+
+textarea:focus {
+    background: none repeat scroll 0 0 #FFFFFF;
+    outline-width: 0;
+}
+</style>
+
+
+
+
+
+
+
+<section class="page-img" style="background-image: url(../../Images/1.jpg);">
+    <div class="main-title">
+        
+    </div>
+</section>
+
+
+
+
+
+
+@* Html Text for Text Area *@
+
+
+<div id="wrapper">
+
+    
+
+        <form id="paper" method="get" action="">
+
+
+
+            <textarea placeholder="Enter something." id="text" name="text" rows="4" style="overflow-y: scroll; word-wrap: break-word; resize: none; "></textarea>
+            <br>
+            <input id="btn" type="submit" value="Check">
+
+
+        </form>
+
+    </div>
+
+
+
+
+
+
+@* JS *@
+
+
+<script>
+
+    $(document).ready(function () {
+        $('#title').focus();
+        $('#text').autosize();
+    });
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+

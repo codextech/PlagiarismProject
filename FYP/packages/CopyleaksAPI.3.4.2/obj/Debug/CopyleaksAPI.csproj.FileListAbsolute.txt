@@ -1,0 +1,16 @@
+C:\BitBucket\CopyLeaks\copyleaks api\.NET-Plagiarism-Checker\CopyleaksAPI\bin\Debug\CopyleaksAPI.dll.config
+C:\BitBucket\CopyLeaks\copyleaks api\.NET-Plagiarism-Checker\CopyleaksAPI\bin\Debug\CopyleaksAPI.dll
+C:\BitBucket\CopyLeaks\copyleaks api\.NET-Plagiarism-Checker\CopyleaksAPI\bin\Debug\CopyleaksAPI.pdb
+C:\BitBucket\CopyLeaks\copyleaks api\.NET-Plagiarism-Checker\CopyleaksAPI\bin\Debug\Newtonsoft.Json.dll
+C:\BitBucket\CopyLeaks\copyleaks api\.NET-Plagiarism-Checker\CopyleaksAPI\bin\Debug\System.Net.Http.Extensions.dll
+C:\BitBucket\CopyLeaks\copyleaks api\.NET-Plagiarism-Checker\CopyleaksAPI\bin\Debug\System.Net.Http.Primitives.dll
+C:\BitBucket\CopyLeaks\copyleaks api\.NET-Plagiarism-Checker\CopyleaksAPI\bin\Debug\Newtonsoft.Json.xml
+C:\BitBucket\CopyLeaks\copyleaks api\.NET-Plagiarism-Checker\CopyleaksAPI\bin\Debug\System.Net.Http.Extensions.xml
+C:\BitBucket\CopyLeaks\copyleaks api\.NET-Plagiarism-Checker\CopyleaksAPI\bin\Debug\System.Net.Http.Primitives.xml
+C:\BitBucket\CopyLeaks\copyleaks api\.NET-Plagiarism-Checker\CopyleaksAPI\obj\Debug\CopyleaksAPI.csproj.App.config
+C:\BitBucket\CopyLeaks\copyleaks api\.NET-Plagiarism-Checker\CopyleaksAPI\obj\Debug\CopyleaksAPI.csprojResolveAssemblyReference.cache
+C:\BitBucket\CopyLeaks\copyleaks api\.NET-Plagiarism-Checker\CopyleaksAPI\obj\Debug\Copyleaks.SDK.API.Properties.Resources.resources
+C:\BitBucket\CopyLeaks\copyleaks api\.NET-Plagiarism-Checker\CopyleaksAPI\obj\Debug\CopyleaksAPI.csproj.GenerateResource.Cache
+C:\BitBucket\CopyLeaks\copyleaks api\.NET-Plagiarism-Checker\CopyleaksAPI\obj\Debug\CopyleaksAPI.csproj.CoreCompileInputs.cache
+C:\BitBucket\CopyLeaks\copyleaks api\.NET-Plagiarism-Checker\CopyleaksAPI\obj\Debug\CopyleaksAPI.dll
+C:\BitBucket\CopyLeaks\copyleaks api\.NET-Plagiarism-Checker\CopyleaksAPI\obj\Debug\CopyleaksAPI.pdb

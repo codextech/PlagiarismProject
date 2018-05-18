@@ -1,0 +1,174 @@
+﻿
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>@ViewBag.Title</title>
+    <link rel="icon" type="image/png" sizes="100x100" href="~/Images/Cover/favicon.png" />
+
+    <link rel="stylesheet" href="~/Content/css/min/bootstrap.min.css" media="all">
+    <link rel="stylesheet" href="~/Content/css/min/jqueryui.min.css" media="all">
+    <link rel="stylesheet" href="~/Scripts/animate-css/animate.css" media="all">
+    <link rel="stylesheet" href="~/Content/font/iconfont/iconstyle.css" media="all">
+    <link rel="stylesheet" href="~/Content/font/font-awesome/css/font-awesome.css" media="all">
+    <link rel="stylesheet" href="~/Content/css/main.css" media="all" id="maincss">
+
+    <script type="text/javascript" src="~/Scripts/js-cookie/src/js.cookie.js"></script>
+    <style id="moldcustomize">
+    </style>
+
+   
+
+
+</head>
+<body>
+
+
+    <div class="pre-loader">
+        <div class="loading-img"></div>
+    </div>
+
+    <!-- Header Start -->
+    <header class="nav-menu fixed-top">
+        <nav class="navbar normal">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="@Url.Action("About","TextChecker")">
+                        <b style="color:white">TextChecker</b> <small>Software</small>
+                    </a>
+
+
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div class="navbar-collapse collapse" id="main-navbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown submenu">
+                            <a href="@Url.Action("Index","TextChecker")">Home</a>
+
+                        </li>
+
+
+                        <li class="dropdown submenu">
+                            <a href="@Url.Action("About","Trips")">About Us</a>
+                        </li>
+
+
+
+                        @Html.Partial("_LoginPartial")
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+    </header>
+
+
+
+
+    <div>
+        @RenderBody()
+    </div>
+
+
+    <!-- Footer -->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7 col-md-3">
+                    <h3>Text Checker</h3>
+                    <p>etc.........................</p>
+                </div>
+                <div class="col-sm-5 col-md-2">
+                    <h3>We Provide</h3>
+                    <ul>
+                        <li>Something</li>
+                        <li>Something</li>
+                        <li>Something</li>
+                        <li>Something</li>
+                        <li>Something</li>
+                        
+                    </ul>
+                </div>
+
+
+
+                <div class="col-sm-7 col-md-4">
+                    <h3>Newsletter Signup</h3>
+                    <p>Subscribe us to get new Trips and Events</p>
+                    <br>
+
+                    <div class="input-group-btn">
+                        <button class="btn btn-primary"> <a href="@Url.Action("Register","Account")">Subscribe</a> </button>
+                    </div>
+                </div>
+
+                <div class="col-sm-5 col-md-2">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li>TextChecker</li>
+                        <li>990909090 </li>
+                    </ul>
+                    <div class="clearfix">
+                        <div class="social-icon-list">
+                            <ul>
+                                <li><a href="#" class="icon-facebook"></a></li>
+                                <li><a href="#" class="icon-twitter"></a></li>
+                                <li><a href="#" class="icon-mail"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy"><span>&copy;</span> Copyright TextChecker, 2018</div>
+    </footer>
+
+    <script type="text/javascript" src="~/Scripts/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jqueryui/jquery-ui-1.10.3.custom.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="~/Scripts/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/owlcarousel/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/retina.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/js/min/responsivetable.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/js/bootstrap-tabcollapse.html"></script>
+
+    <script type="text/javascript" src="~/Scripts/js/min/countnumbers.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/js/min/main.min.js"></script>
+
+
+
+
+
+
+    <!-- Current Page JS -->
+    <script type="text/javascript" src="~/Scripts/js/min/home.min.js"></script>
+
+
+
+
+
+
+    @RenderSection("scripts", required: false)
+
+</body>
+
+
+
+</html>
