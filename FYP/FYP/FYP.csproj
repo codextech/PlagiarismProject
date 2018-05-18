@@ -380,7 +380,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Images\1.png" />
+    <Content Include="Images\2.jpg" />
+    <Content Include="Images\8.jpg" />
+    <Content Include="Images\MagnifyingGlass_Cover2.jpg" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\animate-css\animate.css" />

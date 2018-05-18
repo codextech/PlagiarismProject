@@ -79,7 +79,7 @@ namespace FYP.Controllers
             switch (result)
             {
                 case SignInStatus.Success:
-                    return RedirectToAction("Text", "TextChecke");
+                    return RedirectToAction("Text", "TextChecker");
                 case SignInStatus.LockedOut:
                     return View("Lockout");
                 case SignInStatus.RequiresVerification:
@@ -163,7 +163,7 @@ namespace FYP.Controllers
                     // var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);
                     // await UserManager.SendEmailAsync(user.Id, "Confirm your account", "Please confirm your account by clicking <a href=\"" + callbackUrl + "\">here</a>");
 
-                    return RedirectToAction("text", "TextChecker");
+                    return RedirectToAction("Text", "TextChecker");
                 }
                 AddErrors(result);
             }
